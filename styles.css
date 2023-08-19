@@ -1,6 +1,8 @@
 html {
     width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000111;
+    color: white;
 }
 
 body {
@@ -10,12 +12,17 @@ body {
 }
 
 .card {
-    border: thin dashed black;
+    border: thin dashed #333;
     width: 250px;
 }
 
 .card:hover {
     width: 33%;
+}
+
+.box {
+    color: white;
+    text-decoration: none;
 }
 
 .used {
@@ -32,7 +39,7 @@ body {
     display: inline-block;
     margin-top: 20px;
     color: red;
-    text-decoration-color: blue;
+    text-decoration-color: white;
     text-decoration-style: wavy;
 }
 

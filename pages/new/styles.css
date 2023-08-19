@@ -1,0 +1,27 @@
+html {
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+body {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 250px;
+    border: solid 2px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    padding: 20px;
+}
+
+.origin {
+    padding-left: 20px;
+    background-color: #000111;
+}
