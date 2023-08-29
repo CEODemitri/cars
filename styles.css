@@ -1,8 +1,7 @@
+/* Body Style Section */
 html {
     width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #000111;
-    color: white;
 }
 
 body {
@@ -11,77 +10,9 @@ body {
     margin: 0 auto;
 }
 
-.card {
-    border: thin dashed #333;
-    width: 250px;
-}
-
-.card:hover {
-    width: 33%;
-}
-
-.box {
-    color: white;
-    text-decoration: none;
-}
-
-.used {
-    margin-top: 90px;
-}
-
-.new-list, .used-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.new-btn, .used-btn {
-    display: inline-block;
-    margin-top: 20px;
-    color: red;
-    text-decoration-color: white;
-    text-decoration-style: wavy;
-}
-
-.new-btn:hover, .used-btn:hover {
-    color: purple;
-    text-decoration-color: yellow;
-    text-decoration-style: wavy;
-}
-
-.newColor {
-    background-color: red;
-    color: antiquewhite;
-    border-radius: 10px;
-}
-
-footer {
-    margin: 150px 0 10px;
-    height: 150px;
-    background-color: slateblue;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.social {
-    display: flex;
-    gap: 20px;
+/* New Car Styles Section */
+.new-cars {
+    border-radius: 5px;
+    box-shadow: 5px 35px 68px 0px rgba(49, 121, 218, 0.5), inset -8px -8px 16px 0px rgba(49, 121, 218, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
     padding: 10px;
 }
-
-footer .social .x, .ig, .open {
-    background-color: white;
-    height: 20%;
-    width: 15%;
-    border-radius: 50%;
-}
-
-
-/* fix */
-/* @media (max-width:950px) {
-    body {
-        margin: 100px;
-    }
-} */
-
