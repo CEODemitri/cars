@@ -1,4 +1,6 @@
 $base-size: 1.3rem;
+$body-font: 'Cutive Mono', monospace;
+$title-font: 'Carter One';
 
 * {
 	padding: 0;
@@ -35,10 +37,12 @@ body {
 }
 
 .hero-title {
-    font-size: 2.7em;
+    font-family: $title-font;
+    font-size: 2.5em;
     border-bottom: 1px solid white;
     padding-bottom: $base-size;
     margin-bottom: $base-size;
+    width: 14ch;
 }
 
 .hero-btns {
@@ -60,11 +64,12 @@ body {
     color: black;
     border: 0;
     border-radius: $base-size 0 $base-size 0;
+    height: $base-size * 2;
+    font-family: $body-font;
+    font-size: $base-size/1.25;
 }
 
 .catalog-btn:hover {
-    background-color: black;
-    color: white;
     border: 1px solid white;
     cursor: pointer;
 }
@@ -75,4 +80,9 @@ body {
     border: 1px solid white;
     border-radius: $base-size 0 $base-size 0;
     text-align: center;
+    padding: $base-size/2;
+}
+
+.left-side > p, .hero-btns {
+    font-family: $body-font;
 }

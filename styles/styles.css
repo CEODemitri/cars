@@ -31,10 +31,12 @@ body {
 }
 
 .hero-title {
-  font-size: 2.7em;
+  font-family: "Carter One";
+  font-size: 2.5em;
   border-bottom: 1px solid white;
   padding-bottom: 1.3rem;
   margin-bottom: 1.3rem;
+  width: 14ch;
 }
 
 .hero-btns {
@@ -56,11 +58,12 @@ body {
   color: black;
   border: 0;
   border-radius: 1.3rem 0 1.3rem 0;
+  height: 2.6rem;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.04rem;
 }
 
 .catalog-btn:hover {
-  background-color: black;
-  color: white;
   border: 1px solid white;
   cursor: pointer;
 }
@@ -71,4 +74,9 @@ body {
   border: 1px solid white;
   border-radius: 1.3rem 0 1.3rem 0;
   text-align: center;
+  padding: 0.65rem;
+}
+
+.left-side > p, .hero-btns {
+  font-family: "Cutive Mono", monospace;
 }/*# sourceMappingURL=styles.css.map */
