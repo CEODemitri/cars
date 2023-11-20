@@ -1,0 +1,78 @@
+$base-size: 1.3rem;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.hero-section {
+	display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 450px;
+    max-width: 950px;
+    margin: auto;
+    gap: $base-size * 2;
+    padding: 2rem;
+
+}
+
+@media (max-width: 540px) {
+	.hero-section {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.left-side, .right-side {
+    min-width: 450px;
+}
+
+.hero-title {
+    font-size: 2.7em;
+    border-bottom: 1px solid white;
+    padding-bottom: $base-size;
+    margin-bottom: $base-size;
+}
+
+.hero-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: $base-size auto;
+    gap: $base-size;
+}
+
+.catalog-btn, .money-btn {
+    width: $base-size * 5;
+    padding: $base-size/3;
+}
+
+.catalog-btn {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: $base-size 0 $base-size 0;
+}
+
+.catalog-btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.money-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: $base-size 0 $base-size 0;
+    text-align: center;
+}

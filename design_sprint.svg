@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="design_sprint.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.47482464"
+     inkscape:cx="1227.8217"
+     inkscape:cy="356.9739"
+     inkscape:window-width="1366"
+     inkscape:window-height="731"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="210"
+       height="297"
+       id="page5"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="220"
+       y="0"
+       width="210"
+       height="297"
+       id="page6" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ae78ee;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:0;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="31.609358"
+       y1="114.88594"
+       x2="182.3143"
+       y2="114.88594"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient3);stroke-width:0.436319"
+       id="rect1"
+       width="150.70494"
+       height="197.61836"
+       x="31.609358"
+       y="16.076761" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:0.72;stroke-width:0.341;paint-order:stroke markers fill;opacity:0.48231226"
+       id="rect3"
+       width="127.50618"
+       height="80.401222"
+       x="44.277481"
+       y="25.512554" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.482312;fill:#4d4d4d;fill-opacity:0.72;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path3"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="105.3696"
+       sodipodi:cy="65.580387"
+       sodipodi:r1="36.289997"
+       sodipodi:r2="28.539667"
+       sodipodi:arg1="0.44634551"
+       sodipodi:arg2="1.4935431"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 138.10429,81.245758 107.57219,94.03493 75.435641,86.096769 79.625944,53.260608 102.56887,29.398623 128.91066,49.445612 Z"
+       inkscape:transform-center-x="-3.6820787"
+       inkscape:transform-center-y="-10.944214" />
+    <rect
+       style="opacity:0.482312;fill:#4d4d4d;fill-opacity:0.72;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect4"
+       width="124.03442"
+       height="14.072063"
+       x="46.911236"
+       y="116.72521" />
+    <rect
+       style="opacity:0.482312;fill:#4d4d4d;fill-opacity:0.72;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect4-5"
+       width="124.03442"
+       height="14.072063"
+       x="46.128922"
+       y="134.31406" />
+    <rect
+       style="opacity:0.482312;fill:#4d4d4d;fill-opacity:0.72;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect4-6"
+       width="124.03442"
+       height="14.072063"
+       x="46.503014"
+       y="152.02611" />
+    <rect
+       style="opacity:0.482312;fill:#4d4d4d;fill-opacity:0.72;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect4-5-2"
+       width="124.03442"
+       height="14.072063"
+       x="45.720699"
+       y="169.61496" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="231.60028"
+       y="18.338305"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-size:9.87778px;fill:#9a0000;fill-opacity:1;stroke-width:0"
+         x="231.60028"
+         y="18.338305">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill;-inkscape-font-specification:'BIZ UDPMincho, Normal';font-family:'BIZ UDPMincho';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="296.79245"
+       y="17.877718"
+       id="text6-7"><tspan
+         sodipodi:role="line"
+         id="tspan6-9"
+         style="font-size:9.87777946px;fill:#9a0000;fill-opacity:1;stroke-width:0;-inkscape-font-specification:'BIZ UDPMincho, Normal';font-family:'BIZ UDPMincho';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="296.79245"
+         y="17.877718">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill;-inkscape-font-specification:'Google Sans, Normal';font-family:'Google Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="360.63422"
+       y="17.389437"
+       id="text6-3"><tspan
+         sodipodi:role="line"
+         id="tspan6-7"
+         style="font-size:9.87777946px;fill:#9a0000;fill-opacity:1;stroke-width:0;-inkscape-font-specification:'Google Sans, Normal';font-family:'Google Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="360.63422"
+         y="17.389437">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill;-inkscape-font-specification:'Lato, Normal';font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="230.40007"
+       y="40.025715"
+       id="text6-1"><tspan
+         sodipodi:role="line"
+         id="tspan6-2"
+         style="font-size:9.87777946px;fill:#9a0000;fill-opacity:1;stroke-width:0;-inkscape-font-specification:'Lato, Normal';font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="230.40007"
+         y="40.025715">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.1812px;font-family:'Noto Color Emoji';-inkscape-font-specification:'Noto Color Emoji, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.9946846;fill:#0c009a;fill-opacity:0.86000001;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="313.39438"
+       y="36.860149"
+       id="text6-0"
+       transform="scale(0.92391351,1.0823524)"><tspan
+         sodipodi:role="line"
+         id="tspan6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.1812px;font-family:'Noto Color Emoji';-inkscape-font-specification:'Noto Color Emoji, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0c009a;fill-opacity:0.86000001;stroke-width:0"
+         x="313.39438"
+         y="36.860149">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#0c009a;fill-opacity:0.86000001;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill;-inkscape-font-specification:'TeX Gyre Adventor, Normal';font-family:'TeX Gyre Adventor';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="364.33984"
+       y="39.446354"
+       id="text6-9"><tspan
+         sodipodi:role="line"
+         id="tspan6-6"
+         style="font-size:9.87777946px;fill:#0c009a;fill-opacity:0.86000001;stroke-width:0;-inkscape-font-specification:'TeX Gyre Adventor, Normal';font-family:'TeX Gyre Adventor';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="364.33984"
+         y="39.446354">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill;-inkscape-font-specification:'Source Code Pro, Normal';font-family:'Source Code Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="229.40521"
+       y="57.63364"
+       id="text6-1-6"><tspan
+         sodipodi:role="line"
+         id="tspan6-2-1"
+         style="font-size:9.87777946px;fill:#9a0000;fill-opacity:1;stroke-width:0;-inkscape-font-specification:'Source Code Pro, Normal';font-family:'Source Code Pro';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="229.40521"
+         y="57.63364">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill;-inkscape-font-specification:'BIZ UDPMincho, Normal';font-family:'BIZ UDPMincho';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="295.24786"
+       y="56.539612"
+       id="text6-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan6-8-5"
+         style="font-size:9.87777946px;fill:#9a0000;fill-opacity:1;stroke-width:0;-inkscape-font-specification:'BIZ UDPMincho, Normal';font-family:'BIZ UDPMincho';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="295.24786"
+         y="56.539612">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Thaana';-inkscape-font-specification:'Noto Sans Thaana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.9946846;fill:#9a0000;fill-opacity:1;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="362.30237"
+       y="56.414345"
+       id="text6-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan6-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;font-family:'Noto Sans Thaana';-inkscape-font-specification:'Noto Sans Thaana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#9a0000;fill-opacity:1;stroke-width:0"
+         x="362.30237"
+         y="56.414345">CarLot.com</tspan></text>
+    <rect
+       style="opacity:0.482312;fill:#0c009a;fill-opacity:0.86;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect6"
+       width="75.442802"
+       height="89.51487"
+       x="432.28992"
+       y="-21.278963" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777px;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.482312;fill:#0c009a;fill-opacity:0.86;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="459.32608"
+       y="-8.8480959"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="fill:#48004d;fill-opacity:0.86;stroke-width:0"
+         x="459.32608"
+         y="-8.8480959">Red is Used</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#48004d;fill-opacity:0.86;stroke-width:0"
+         x="459.32608"
+         y="3.4991171"
+         id="tspan8">Blue is Fav</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#48004d;fill-opacity:0.86;stroke-width:0"
+         x="459.32608"
+         y="15.84633"
+         id="tspan9">Black is New</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.0546px;opacity:0.9946846;fill:#c70c0c;fill-opacity:0.93616396;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="235.57024"
+       y="73.454399"
+       id="text6-1-65"
+       transform="scale(0.95028245,1.0523187)"><tspan
+         sodipodi:role="line"
+         id="tspan6-2-7"
+         style="font-size:11.0546px;fill:#c70c0c;fill-opacity:0.93616396;stroke-width:0"
+         x="235.57024"
+         y="73.454399">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.0546px;opacity:0.9946846;fill:#c70c0c;fill-opacity:0.93616396;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="309.25687"
+       y="72.230026"
+       id="text6-0-8"
+       transform="scale(0.95028245,1.0523187)"><tspan
+         sodipodi:role="line"
+         id="tspan6-8-59"
+         style="font-size:11.0546px;fill:#c70c0c;fill-opacity:0.93616396;stroke-width:0"
+         x="309.25687"
+         y="72.230026">CarLot.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.0546px;opacity:0.9946846;fill:#c70c0c;fill-opacity:0.93616396;stroke-width:0;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="380.16589"
+       y="71.368797"
+       id="text6-9-2"
+       transform="scale(0.95028245,1.0523187)"><tspan
+         sodipodi:role="line"
+         id="tspan6-6-7"
+         style="font-size:11.0546px;fill:#c70c0c;fill-opacity:0.93616396;stroke-width:0"
+         x="380.16589"
+         y="71.368797">CarLot.com</tspan></text>
+  </g>
+</svg>
