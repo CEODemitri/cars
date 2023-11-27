@@ -36,7 +36,7 @@ body {
     min-width: 450px;
 }
 
-.hero-title {
+.hero-title, .popular-title {
     font-family: $title-font;
     font-size: 2.5em;
     border-bottom: 1px solid white;
@@ -85,4 +85,22 @@ body {
 
 .left-side > p, .hero-btns {
     font-family: $body-font;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-cars {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+// inspired by bootstrap cards. I wish to place three cards here to display
+.popular-cars > article {
+    width: 500px;
+    height: 200px;
+    background-color: white;
 }

@@ -34,7 +34,7 @@ test.addEventListener(
     setTimeout(() => {
       event.target.style.backgroundColor = "black";
       event.target.style.color = "white";
-    }, 700);
+    }, 1000);
   },
   false,
 );
