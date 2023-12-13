@@ -59,8 +59,8 @@ body {
   border: 0;
   border-radius: 1.3rem 0 1.3rem 0;
   height: 2.6rem;
-  font-family: "Cutive Mono", monospace;
   font-size: 1.04rem;
+  font-family: "Cutive Mono", monospace;
 }
 
 .catalog-btn:hover {
@@ -77,7 +77,7 @@ body {
   padding: 0.65rem;
 }
 
-.left-side > p, .hero-btns {
+.left-side p, .hero-btns {
   font-family: "Cutive Mono", monospace;
 }
 
@@ -112,6 +112,7 @@ body {
 .popular-car-info {
   color: black;
   width: 55%;
+  font-family: "Cutive Mono", monospace;
 }
 
 .popular-link {
@@ -120,6 +121,9 @@ body {
   border-radius: 0 0 1.3rem 0;
 }
 
-.popular-car-info:nth-child(1) {
-  font-size: 2.08rem;
+.popular-car-info p:first-of-type {
+  font-size: 1.82rem;
+}
+.popular-car-info p:last-of-type {
+  font-size: 1.43rem;
 }/*# sourceMappingURL=styles.css.map */

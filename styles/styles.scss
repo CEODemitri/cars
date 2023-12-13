@@ -20,7 +20,7 @@ body {
     min-width: 450px;
     max-width: 950px;
     margin: auto;
-    gap: $base-size * 2;
+    gap: calc($base-size * 2);
     padding: 2rem;
 
 }
@@ -36,6 +36,7 @@ body {
     min-width: 450px;
 }
 
+// makes all titles this font, so each new section should have its parent title here
 .hero-title, .popular-title {
     font-family: $title-font;
     font-size: 2.5em;
@@ -55,8 +56,8 @@ body {
 }
 
 .catalog-btn, .money-btn {
-    width: $base-size * 5;
-    padding: $base-size/3;
+    width: calc($base-size * 5);
+    padding: calc($base-size / 3);
 }
 
 .catalog-btn {
@@ -64,9 +65,9 @@ body {
     color: black;
     border: 0;
     border-radius: $base-size 0 $base-size 0;
-    height: $base-size * 2;
+    height: calc($base-size * 2);
+    font-size: calc($base-size / 1.25);
     font-family: $body-font;
-    font-size: $base-size/1.25;
 }
 
 .catalog-btn:hover {
@@ -83,7 +84,7 @@ body {
     padding: calc($base-size / 2);
 }
 
-.left-side > p, .hero-btns {
+.left-side p, .hero-btns{
     font-family: $body-font;
 }
 
@@ -119,6 +120,8 @@ body {
 .popular-car-info {
     color: black;
     width: 55%;
+    // hard not to group this above with the other family, but placing it here feels better to me for now
+    font-family: $body-font;
 }
 
 .popular-link {
@@ -127,9 +130,16 @@ body {
     border-radius: 0 0 $base-size 0;
 }
 
-// fix first
-.popular-car-info:nth-child(1) {
-    font-size: calc($base-size * 1.6);
+// nesting elements; i like
+.popular-car-info{
+    p:first-of-type {
+        font-size: calc($base-size * 1.4);
+    }
+
+    p:last-of-type {
+        font-size: calc($base-size * 1.1);
+    }
 }
+
 
 // step one is to refactor my sass file to use sass syntax. I have used the easy route with vanilla css. use sass to its advantage (which css is now adding) but while its here use it. 
