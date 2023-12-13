@@ -12,7 +12,7 @@ body {
 	color: white;
 }
 
-.hero-section {
+.hero-section, .popular {
 	display: flex;
     flex: 1;
     justify-content: space-between;
@@ -80,7 +80,7 @@ body {
     border: 1px solid white;
     border-radius: $base-size 0 $base-size 0;
     text-align: center;
-    padding: $base-size/2;
+    padding: calc($base-size / 2);
 }
 
 .left-side > p, .hero-btns {
@@ -103,4 +103,33 @@ body {
     width: 500px;
     height: 200px;
     background-color: white;
+    border-radius: $base-size 0 $base-size 0;
 }
+
+.popular-card {
+    display: flex;
+}
+
+.popular-car-image {
+    width: $base-size * 10;
+    background-color: darkgray;
+    border-radius: $base-size 0 0 0;
+}
+
+.popular-car-info {
+    color: black;
+    width: 55%;
+}
+
+.popular-link {
+    color: black;
+    background-color: lightgrey;
+    border-radius: 0 0 $base-size 0;
+}
+
+// fix first
+.popular-car-info:nth-child(1) {
+    font-size: calc($base-size * 1.6);
+}
+
+// step one is to refactor my sass file to use sass syntax. I have used the easy route with vanilla css. use sass to its advantage (which css is now adding) but while its here use it. 
