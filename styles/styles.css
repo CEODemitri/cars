@@ -30,7 +30,7 @@ body {
   min-width: 450px;
 }
 
-.hero-title, .popular-title {
+.hero-title, .popular-title, .reviews-title, .all-cars-title {
   font-family: "Carter One";
   font-size: 2.5em;
   border-bottom: 1px solid white;
@@ -126,4 +126,9 @@ body {
 }
 .popular-car-info p:last-of-type {
   font-size: 1.43rem;
+}
+
+.flex {
+  display: flex;
+  gap: 2.99rem;
 }/*# sourceMappingURL=styles.css.map */

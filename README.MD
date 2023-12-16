@@ -7,12 +7,19 @@ What is the aim of this project? To practice building applications with code, wi
 The aim is focused on aesthetics.
 
 1. Header Section.
-    a. complete: refactoring necessary.
+    a. complete
 
 2. popular buys
+    a. complete
 
 3. reviews
+    a. complete
 
 4. all cars
+    a. complete
 
 5. footer
+    a. complete
+
+## phase 2 
+i think the most obvious step to take here is review the structure and begin to layout the areas and dimensions of the site. the homepage is nearly all complete with the bare bones. keep evolving and growing. stay patient but keep at it.
