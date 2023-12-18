@@ -10,6 +10,8 @@ $title-font: 'Carter One';
 body {
 	background-color: black;
 	color: white;
+    max-width: 950px;
+    margin: auto;
 }
 
 .flex {
@@ -144,7 +146,7 @@ body {
     }
 }
 
-.fast-cars > div, .muscle-cars > div, .exotic-cars > div, .presidential-cars > div {
+.fast-cars > div, .muscle-cars > div, .exotic-cars > div, .concept-cars > div {
     width: 950px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -152,11 +154,31 @@ body {
     gap: calc($base-size*1.4);
 }
 
-.fast-cars > div > article,  .muscle-cars > div > article, .exotic-cars > div > article, .presidential-cars > div > article {
+.fast-cars > div > article,  .muscle-cars > div > article, .exotic-cars > div > article, .concept-cars > div > article {
     display: flex;
     background-color: white;
     color: black;
+    height: 275px;
+    font-family: $body-font;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
 }
+
+.flex-col > a {
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: calc($base-size * 2.3);
+    margin-right: 30px;
+    align-self: flex-end;
+    color: black;
+    background: linear-gradient(180deg, silver, rgba(169, 169, 169, 0.541));
+    padding: 1rem;
+}
+
+a::after {
+    color: rgba(255, 0, 0, 0.052);
+}
+
 
 
 
