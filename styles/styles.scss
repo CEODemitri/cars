@@ -179,6 +179,28 @@ a::after {
     color: rgba(255, 0, 0, 0.052);
 }
 
+.footer-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    border: 1px solid white;
+    border-radius: 10px 0 0 0;
+    padding: 7px;
+}
+
+.footer-links {
+    font-size: 0.8rem;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+     a:hover {
+        color: blue;
+        display: inline-block;
+        transform: scale(1.15);
+     }
+}
 
 
 
