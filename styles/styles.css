@@ -97,6 +97,11 @@ body {
   gap: 1rem;
 }
 
+article > img {
+  width: 300px;
+  height: 190px;
+}
+
 .popular-cars > article {
   width: 500px;
   height: 200px;
@@ -145,10 +150,16 @@ body {
   display: flex;
   background-color: white;
   color: black;
-  height: 275px;
+  height: 300px;
   font-family: "Cutive Mono", monospace;
   display: grid;
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  grid-template-columns: 1fr;
+}
+.fast-cars > div > article img, .muscle-cars > div > article img, .exotic-cars > div > article img, .concept-cars > div > article img {
+  grid-area: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .flex-col > a {

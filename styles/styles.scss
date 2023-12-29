@@ -104,6 +104,11 @@ body {
     gap: 1rem;
 }
 
+article > img {
+    width: 300px;
+    height: 190px;
+}
+
 // inspired by bootstrap cards. I wish to place three cards here to display
 .popular-cars > article {
     width: 500px;
@@ -158,10 +163,16 @@ body {
     display: flex;
     background-color: white;
     color: black;
-    height: 275px;
+    height: 300px;
     font-family: $body-font;
     display: grid;
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 1fr;
+
+    img {
+        grid-area: 1;
+        object-fit: cover;
+    }
 }
 
 .flex-col > a {
