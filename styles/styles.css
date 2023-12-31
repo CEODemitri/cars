@@ -132,10 +132,14 @@ article > img {
 }
 
 .popular-car-info p:first-of-type {
-  font-size: 1.82rem;
+  font-size: 1.3em;
 }
 .popular-car-info p:last-of-type {
   font-size: 1.43rem;
+}
+
+h3 {
+  font-size: 2.6rem;
 }
 
 .fast-cars > div, .muscle-cars > div, .exotic-cars > div, .concept-cars > div {
@@ -148,10 +152,10 @@ article > img {
 
 .fast-cars > div > article, .muscle-cars > div > article, .exotic-cars > div > article, .concept-cars > div > article {
   display: flex;
-  background-color: white;
-  color: black;
-  height: 300px;
+  background-color: hsla(0, 0%, 9%, 0.4);
+  height: 325px;
   font-family: "Cutive Mono", monospace;
+  font-size: 1.3em;
   display: grid;
   grid-template-rows: 4fr 1fr;
   grid-template-columns: 1fr;
@@ -161,20 +165,36 @@ article > img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.fast-cars > div > article img:hover, .muscle-cars > div > article img:hover, .exotic-cars > div > article img:hover, .concept-cars > div > article img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  z-index: 1;
+}
+.fast-cars > div > article:hover, .muscle-cars > div > article:hover, .exotic-cars > div > article:hover, .concept-cars > div > article:hover {
+  transform: scale(1.05);
+}
+.fast-cars > div > article div, .muscle-cars > div > article div, .exotic-cars > div > article div, .concept-cars > div > article div {
+  padding: 1.3rem 0.2rem;
+}
 
 .flex-col > a {
   text-decoration: none;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   margin-bottom: 2.99rem;
   margin-right: 30px;
   align-self: flex-end;
   color: black;
   background: linear-gradient(180deg, silver, rgba(169, 169, 169, 0.541));
   padding: 1rem;
+  border-radius: 1.3rem;
 }
-
-a::after {
-  color: rgba(255, 0, 0, 0.052);
+.flex-col > a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.3s;
+  box-shadow: 5px 2px 5px slategrey;
 }
 
 .footer-container {
