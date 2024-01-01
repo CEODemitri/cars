@@ -111,6 +111,11 @@ article > img {
   height: 190px;
 }
 
+.body-text {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.3em;
+}
+
 h3 {
   font-size: 2.6rem;
 }

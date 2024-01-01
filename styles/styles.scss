@@ -124,6 +124,10 @@ article > img {
 
 // inspired by bootstrap cards. I wish to place three cards here to display
 
+.body-text {
+    font-family: $body-font;
+    font-size: $sm-font;
+}
 
 h3 {
     font-size: $db-base;
