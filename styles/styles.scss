@@ -108,55 +108,26 @@ body {
     gap: 1rem;
 }
 
+.popular-card {
+    display: flex;
+    border: 1px solid white;
+
+    img {
+        object-fit: contain;
+    }
+}
+
 article > img {
     width: 300px;
     height: 190px;
 }
 
 // inspired by bootstrap cards. I wish to place three cards here to display
-.popular-cars > article {
-    width: 500px;
-    height: 200px;
-    background-color: white;
-    border-radius: $base-size 0 $base-size 0;
-}
 
-.popular-card {
-    display: flex;
-}
-
-.popular-car-image {
-    width: $base-size * 10;
-    background-color: darkgray;
-    border-radius: $base-size 0 0 0;
-}
-
-.popular-car-info {
-    color: black;
-    width: 55%;
-    // hard not to group this above with the other family, but placing it here feels better to me for now
-    font-family: $body-font;
-}
-
-.popular-link {
-    color: black;
-    background-color: lightgrey;
-    border-radius: 0 0 $base-size 0;
-}
-
-// nesting elements; i like
-.popular-car-info{
-    p:first-of-type {
-        font-size: $sm-font;
-    }
-
-    p:last-of-type {
-        font-size: calc($base-size * 1.1);
-    }
-}
 
 h3 {
     font-size: $db-base;
+
 }
 
 .fast-cars > div, .muscle-cars > div, .exotic-cars > div, .concept-cars > div {
@@ -216,13 +187,13 @@ h3 {
         cursor: pointer;
         text-decoration: underline;
         transition: 0.3s;
-        box-shadow: 5px 2px 5px slategrey;
+        box-shadow: 5px 2px 5px darkslategray;
     }
 }
 
 .footer-container {
     display: grid;
-    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     border: 1px solid white;
     border-radius: 10px 0 0 0;
     padding: 7px;

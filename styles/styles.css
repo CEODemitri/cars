@@ -97,45 +97,18 @@ body {
   gap: 1rem;
 }
 
+.popular-card {
+  display: flex;
+  border: 1px solid white;
+}
+.popular-card img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 article > img {
   width: 300px;
   height: 190px;
-}
-
-.popular-cars > article {
-  width: 500px;
-  height: 200px;
-  background-color: white;
-  border-radius: 1.3rem 0 1.3rem 0;
-}
-
-.popular-card {
-  display: flex;
-}
-
-.popular-car-image {
-  width: 13rem;
-  background-color: darkgray;
-  border-radius: 1.3rem 0 0 0;
-}
-
-.popular-car-info {
-  color: black;
-  width: 55%;
-  font-family: "Cutive Mono", monospace;
-}
-
-.popular-link {
-  color: black;
-  background-color: lightgrey;
-  border-radius: 0 0 1.3rem 0;
-}
-
-.popular-car-info p:first-of-type {
-  font-size: 1.3em;
-}
-.popular-car-info p:last-of-type {
-  font-size: 1.43rem;
 }
 
 h3 {
@@ -194,12 +167,12 @@ h3 {
   cursor: pointer;
   text-decoration: underline;
   transition: 0.3s;
-  box-shadow: 5px 2px 5px slategrey;
+  box-shadow: 5px 2px 5px darkslategray;
 }
 
 .footer-container {
   display: grid;
-  grid-template-columns: 3fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   border: 1px solid white;
   border-radius: 10px 0 0 0;
   padding: 7px;
