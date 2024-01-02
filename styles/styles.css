@@ -100,10 +100,20 @@ body {
 .popular-card {
   display: flex;
   border: 1px solid white;
+  border-radius: 1.3rem 0 0 0;
 }
 .popular-card img {
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 1.3rem 0 0 0;
+}
+.popular-card .popular-car-info {
+  align-self: flex-end;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.3em;
+}
+.popular-card a {
+  color: white;
 }
 
 article > img {

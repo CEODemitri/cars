@@ -115,6 +115,17 @@ body {
 
     img {
         object-fit: contain;
+        border-radius: $base-size 0 0 0;
+    }
+
+    .popular-car-info {
+        align-self: flex-end;
+        font-family: $body-font;
+        font-size: $sm-font;
+    }
+
+    a {
+        color: white;
     }
 }
 
