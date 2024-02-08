@@ -1,3 +1,11 @@
+// new variables
+$lg: 1150px;
+$md: 875px;
+$sm: 425px;
+
+$section-height: 500px;
+
+// old variables
 $base-size: 1.3rem;
 $db-base: 2.6rem;
 $body-font: 'Cutive Mono', monospace;
@@ -28,28 +36,11 @@ body {
     flex-direction: column;
 }
 
-.hero-section, .popular {
-	display: flex;
-    flex: 1;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 450px;
-    max-width: 950px;
-    margin: auto;
-    gap: $db-base;
-    padding: 2rem;
-
-}
-
-@media (max-width: 540px) {
-	.hero-section {
-		display: flex;
-		flex-direction: column;
-	}
-}
-
-.left-side, .right-side {
-    min-width: 450px;
+.hero-section {
+    background-image: url("../images/heroImg.webp");
+    background-position: center;
+    height: $section-height;
+    border: 1px solid white;
 }
 
 // makes all titles this font, so each new section should have its parent title here

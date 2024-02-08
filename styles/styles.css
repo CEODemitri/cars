@@ -20,26 +20,11 @@ body {
   flex-direction: column;
 }
 
-.hero-section, .popular {
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 450px;
-  max-width: 950px;
-  margin: auto;
-  gap: 2.6rem;
-  padding: 2rem;
-}
-
-@media (max-width: 540px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.left-side, .right-side {
-  min-width: 450px;
+.hero-section {
+  background-image: url("../images/heroImg.webp");
+  background-position: center;
+  height: 500px;
+  border: 1px solid white;
 }
 
 .hero-title, .popular-title, .reviews-title, .all-cars-title {
