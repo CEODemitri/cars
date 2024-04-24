@@ -1,228 +1,87 @@
-// new variables
-$lg: 1150px;
-$md: 875px;
-$sm: 425px;
+/* CUSTOM PROPERTIES */
 
-$section-height: 500px;
+/* colors */
+// peach #F1BF98 accent
+// poly green #3E4D2E base
+// dark green #152107 dark
+// lightsage #D6E0CC light
+$dark: hsl(88, 65%, 8%);
+$base: hsl(89, 25%, 24%);
+$accent: hsl(26, 76%, 77%);
+$light: hsl(90, 24%, 84%);
 
-// old variables
-$base-size: 1.3rem;
-$db-base: 2.6rem;
-$body-font: 'Cutive Mono', monospace;
-$title-font: 'Carter One';
-$sm-font: 1.3em;
-$md-font: 1.8em;
-$lg-font: 3.3em;
+$ff-title: Michroma, serif;
+$ff-body: "Work Sans", sans-serif;
 
-* {
-	padding: 0;
-	margin: 0;
+h1 {
+    color: $dark;
+    font-family: $ff-title;
+    font-size: 3rem;
 }
 
+p {
+    font-family: $ff-body;
+}
+
+
+
+/* RESET */
+
+/* Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1, 
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+/* Body Set */
 body {
-	background-color: black;
-	color: white;
-    max-width: 950px;
-    margin: auto;
+  font-family: var(--ff-sans-normal);
+  font-size: var(--fs-400);
+  color: hsl(var(--color-light));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 1.5;
+  min-height: 100vh;
 }
 
-.flex {
-    display: flex;
-    gap: calc($base-size * 2.3);
-} 
-
-.flex-col {
-    display: flex; 
-    flex-direction: column;
+/* easier images */
+img, picture {
+  max-width: 100%;
+  display: block;
 }
 
-.hero-section {
-    background-image: url("../images/heroImg.webp");
-    background-position: center;
-    height: $section-height;
-    border: 1px solid white;
+/* form elements */
+input, button, textarea, select {
+  font: inherit;
 }
 
-// makes all titles this font, so each new section should have its parent title here
-.hero-title, .popular-title, .reviews-title, .all-cars-title {
-    font-family: $title-font;
-    font-size: 2.5em;
-    border-bottom: 1px solid white;
-    padding-bottom: $base-size;
-    margin-bottom: $base-size;
-    width: 14ch;
+/* remove animations for people who turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
-
-.hero-btns {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: $base-size auto;
-    gap: $base-size;
-}
-
-.catalog-btn, .money-btn {
-    width: calc($base-size * 5);
-    padding: calc($base-size / 3);
-}
-
-.catalog-btn {
-    background-color: white;
-    color: black;
-    border: 0;
-    border-radius: $base-size 0 $base-size 0;
-    height: $db-base;
-    font-size: calc($base-size / 1.25);
-    font-family: $body-font;
-}
-
-.catalog-btn:hover {
-    border: 1px solid white;
-    cursor: pointer;
-}
-
-.money-btn {
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    border-radius: $base-size 0 $base-size 0;
-    text-align: center;
-    padding: calc($base-size / 2);
-}
-
-.left-side p, .hero-btns{
-    font-family: $body-font;
-}
-
-.popular-cars {
-    gap: 1rem;
-}
-
-.popular-card {
-    display: flex;
-    border: 1px solid white;
-    border-radius: $base-size 0 0 0;
-
-    img {
-        object-fit: contain;
-        border-radius: $base-size 0 0 0;
-    }
-
-    .popular-car-info {
-        align-self: flex-end;
-        font-family: $body-font;
-        font-size: $sm-font;
-    }
-
-    a {
-        color: white;
-    }
-}
-
-// seems i have not properly sized my cards as I have to manually input the size of the images
-article > img {
-    width: 300px;
-    height: 190px;
-}
-
-// inspired by bootstrap cards. I wish to place three cards here to display
-
-.body-text {
-    font-family: $body-font;
-    font-size: $sm-font;
-}
-
-h3 {
-    font-size: $db-base;
-
-}
-
-.fast-cars > div, .muscle-cars > div, .exotic-cars > div, .concept-cars > div {
-    width: 950px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto;
-    gap: calc($base-size*1.4);
-}
-
-.fast-cars > div > article,  .muscle-cars > div > article, .exotic-cars > div > article, .concept-cars > div > article {
-    display: flex;
-    background-color: hsla(0, 0%, 9%, 0.4);
-    height: 325px;
-    font-family: $body-font;
-    font-size: $sm-font;
-    display: grid;
-    grid-template-rows: 4fr 1fr;
-    grid-template-columns: 1fr;
-
-    img {
-        grid-area: 1;
-        object-fit: cover;
-    }
-
-    // img 3d hover effect
-    img:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-        transition: 0.3s;
-        z-index: 1;
-    }
-
-    &:hover {
-        transform: scale(1.05);
-    }
-
-
-    div {
-        padding: $base-size 0.2rem;
-    }
-}
-
-.flex-col > a {
-    text-decoration: none;
-    margin-top: 0.7rem;
-    margin-bottom: calc($base-size * 2.3);
-    margin-right: 30px;
-    align-self: flex-end;
-    color: black;
-    background: linear-gradient(180deg, silver, rgba(169, 169, 169, 0.541));
-    padding: 1rem;
-    border-radius: $base-size;
-
-    &:hover {
-        cursor: pointer;
-        text-decoration: underline;
-        transition: 0.3s;
-        box-shadow: 5px 2px 5px darkslategray;
-    }
-}
-
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border: 1px solid white;
-    border-radius: 10px 0 0 0;
-    padding: 7px;
-}
-
-.footer-links {
-    font-size: 0.8rem;
-    list-style: none;
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-     a:hover {
-        color: blue;
-        display: inline-block;
-        transform: scale(1.15);
-     }
-}
-
-
-
-
-// step one is to refactor my sass file to use sass syntax. I have used the easy route with vanilla css. use sass to its advantage (which css is now adding) but while its here use it. 
