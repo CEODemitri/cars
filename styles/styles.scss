@@ -10,13 +10,17 @@ $base: hsl(89, 25%, 24%);
 $accent: hsl(26, 76%, 77%);
 $light: hsl(90, 24%, 84%);
 
-$ff-title: Michroma, serif;
-$ff-body: "Work Sans", sans-serif;
+$ff-title: "Orbitron", sans-serif;
+$ff-subtitle: "Judson", serif;
+$ff-body: "Arsenal SC", sans-serif;
+
+li {
+  font-family: "Judson", serif;
+}
 
 h1 {
-    color: $dark;
     font-family: $ff-title;
-    font-size: 3rem;
+    color: white;
 }
 
 p {
@@ -87,19 +91,36 @@ input, button, textarea, select {
 }
 
 header {
-  height: 700px;
-  background: url(../images/hero/HERO.png);
-  background-size: contain;
+  height: 100vh;
+  background: url(../images/hero/hero.png);
+  background-size: cover;
   background-repeat: no-repeat;
 
   nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
 
     ul {
+      grid-column: 5/8;
       display: flex;
       color: white;
       gap: 1.6em;
       list-style-type: none;
     }
+
+        .icon {
+          grid-column: 11/12;
+          color: white;
+          place-self: center flex-end;
+        }
+  }
+}
+
+
+
+@media (max-width: 760px) {
+  header {
+    height: 80vh;
   }
 }

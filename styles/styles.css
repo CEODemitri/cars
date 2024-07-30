@@ -1,13 +1,16 @@
 /* CUSTOM PROPERTIES */
 /* colors */
+li {
+  font-family: "Judson", serif;
+}
+
 h1 {
-  color: hsl(88, 65%, 8%);
-  font-family: Michroma, serif;
-  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  color: white;
 }
 
 p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Arsenal SC", sans-serif;
 }
 
 /* RESET */
@@ -70,17 +73,31 @@ input, button, textarea, select {
   }
 }
 header {
-  height: 700px;
-  background: url(../images/hero/HERO.png);
-  background-size: contain;
+  height: 100vh;
+  background: url(../images/hero/hero.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 header nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
 }
 header nav ul {
+  grid-column: 5/8;
   display: flex;
   color: white;
   gap: 1.6em;
   list-style-type: none;
+}
+header nav .icon {
+  grid-column: 11/12;
+  color: white;
+  place-self: center flex-end;
+}
+
+@media (max-width: 760px) {
+  header {
+    height: 80vh;
+  }
 }/*# sourceMappingURL=styles.css.map */
