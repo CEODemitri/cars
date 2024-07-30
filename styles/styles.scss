@@ -85,3 +85,21 @@ input, button, textarea, select {
     scroll-behavior: auto !important;
   }
 }
+
+header {
+  height: 700px;
+  background: url(../images/hero/HERO.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  nav {
+    display: flex;
+
+    ul {
+      display: flex;
+      color: white;
+      gap: 1.6em;
+      list-style-type: none;
+    }
+  }
+}

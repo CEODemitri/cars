@@ -68,4 +68,19 @@ input, button, textarea, select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+header {
+  height: 700px;
+  background: url(../images/hero/HERO.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  color: white;
+  gap: 1.6em;
+  list-style-type: none;
 }/*# sourceMappingURL=styles.css.map */
