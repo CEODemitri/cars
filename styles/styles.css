@@ -77,6 +77,8 @@ header {
   background: url(../../images/hero/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 header nav {
   display: grid;
@@ -94,6 +96,20 @@ header nav .icon {
   grid-column: 11/12;
   color: white;
   place-self: center flex-end;
+}
+header .sliders {
+  display: flex;
+  gap: 1em;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 5em;
+}
+header .sliders .dot {
+  width: 1.3vh;
+  height: 1.3vh;
+  background-color: slateblue;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 
 @media (max-width: 760px) {

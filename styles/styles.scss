@@ -95,6 +95,8 @@ header {
   background: url(../../images/hero/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 
   nav {
     display: grid;
@@ -114,6 +116,22 @@ header {
           color: white;
           place-self: center flex-end;
         }
+  }
+
+  .sliders {
+    display: flex;
+    gap: 1em;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 5em;
+
+    .dot {
+        width: 1.3vh;
+        height: 1.3vh;
+        background-color: slateblue;
+        border-radius: 50%;
+        border: 1px solid white;
+      }
   }
 }
 
