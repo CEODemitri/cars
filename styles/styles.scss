@@ -143,6 +143,32 @@ header {
   }
 }
 
+
+// blog styles
 .blog {
   height: 100vh;
+}
+
+.blog-box {
+  width: 70%;
+  margin: auto;
+  display: flex;
+
+  h1 {
+    color: black;
+    display: inline;
+  }
+
+  img {
+    width: 350px;
+  }
+}
+
+.blog-box > section:first-of-type {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    width: 30%;
+  }
 }

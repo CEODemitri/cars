@@ -1,11 +1,7 @@
 function colorSwap() {
-    var color = document.getElementById("catalog-btn");
-    color.classList.toggle("newColor")
+  var color = document.getElementById("catalog-btn");
+  color.classList.toggle("newColor");
 }
-
-document.getElementById("demo").addEventListener("mouseover", mouseOver);
-document.getElementById("demo").addEventListener("mouseout", mouseOut);
-
 function mouseOver() {
   document.getElementById("demo").style.backgroundColor = "black";
   document.getElementById("demo").style.color = "white";
@@ -18,23 +14,57 @@ function mouseOut() {
   document.getElementById("demo").style.scale = "100%";
 }
 
-// i like this way better
-const test = document.getElementById("test");
+// // i like this way better
+// const test = document.getElementById("test");
 
-// This handler will be executed only once when the cursor
-// moves over the unordered list
-test.addEventListener(
-  "mouseenter",
-  (event) => {
-    // highlight the mouseenter target
-    event.target.style.backgroundColor = "white";
-    event.target.style.color = "black";
+// // This handler will be executed only once when the cursor
+// // moves over the unordered list
+// test.addEventListener(
+//   "mouseenter",
+//   (event) => {
+//     // highlight the mouseenter target
+//     event.target.style.backgroundColor = "white";
+//     event.target.style.color = "black";
 
-    // reset the color after a short delay
-    setTimeout(() => {
-      event.target.style.backgroundColor = "black";
-      event.target.style.color = "white";
-    }, 1000);
-  },
-  false,
-);
+//     // reset the color after a short delay
+//     setTimeout(() => {
+//       event.target.style.backgroundColor = "black";
+//       event.target.style.color = "white";
+//     }, 1000);
+//   },
+//   false
+// );
+
+document.addEventListener("DOMContentLoaded", function () {
+  const dots = document.querySelectorAll(".dot");
+  const header = document.querySelector(".head");
+  const images = ["/styles/hero.png", "/styles/hero2.png", "/styles/hero3.png"];
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", function () {
+      console.log("Dot clicked");
+      header.style.background = `url('${images[index]}')`;
+      header.style.backgroundSize = "cover";
+    });
+  });
+
+  console.log("DOM fully loaded and ready");
+});
+
+function autoScrollBG() {
+  const header = document.querySelector(".head");
+  const heroImages = [
+    "/styles/hero.png",
+    "/styles/hero2.png",
+    "/styles/hero3.png",
+  ];
+  let currentHeroIndex = 0;
+
+  setInterval(() => {
+    header.style.background = `url('${heroImages[currentHeroIndex]}')`;
+    header.style.backgroundSize = "cover";
+    currentHeroIndex = (currentHeroIndex + 1) % heroImages.length;
+  }, 5000);
+}
+
+autoScrollBG();

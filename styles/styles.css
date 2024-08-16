@@ -119,4 +119,25 @@ header .sliders .dot {
 }
 .blog {
   height: 100vh;
+}
+
+.blog-box {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+.blog-box h1 {
+  color: black;
+  display: inline;
+}
+.blog-box img {
+  width: 350px;
+}
+
+.blog-box > section:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+.blog-box > section:first-of-type p {
+  width: 30%;
 }/*# sourceMappingURL=styles.css.map */
