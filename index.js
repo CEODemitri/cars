@@ -38,7 +38,11 @@ function mouseOut() {
 document.addEventListener("DOMContentLoaded", function () {
   const dots = document.querySelectorAll(".dot");
   const header = document.querySelector(".head");
-  const images = ["/styles/hero.png", "/styles/hero2.png", "/styles/hero3.png"];
+  const images = [
+    "./styles/hero.png",
+    "./styles/hero2.png",
+    "./styles/hero3.png",
+  ];
 
   dots.forEach((dot, index) => {
     dot.addEventListener("click", function () {
@@ -54,9 +58,9 @@ document.addEventListener("DOMContentLoaded", function () {
 function autoScrollBG() {
   const header = document.querySelector(".head");
   const heroImages = [
-    "/styles/hero.png",
-    "/styles/hero2.png",
-    "/styles/hero3.png",
+    "./styles/hero.png",
+    "./styles/hero2.png",
+    "./styles/hero3.png",
   ];
   let currentHeroIndex = 0;
 

@@ -97,6 +97,9 @@ header nav .icon {
   color: white;
   place-self: center flex-end;
 }
+header .company {
+  text-align: center;
+}
 header .sliders {
   display: flex;
   gap: 1em;
