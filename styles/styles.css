@@ -6,7 +6,6 @@ li {
 
 h1 {
   font-family: "Orbitron", sans-serif;
-  color: white;
 }
 
 p {
@@ -42,7 +41,7 @@ h4 {
 
 /* Body Set */
 body {
-  font-family: var(--ff-sans-normal);
+  font-family: "Arsenal SC", sans-serif;
   font-size: var(--fs-400);
   color: hsl(var(--color-light));
   background-repeat: no-repeat;
@@ -79,41 +78,34 @@ header {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+  color: white;
+  letter-spacing: 0.1em;
 }
 header nav {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  justify-content: center;
-}
-header nav ul {
-  grid-column: 5/8;
   display: flex;
-  color: white;
-  gap: 1.6em;
-  list-style-type: none;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  text-shadow: 1px 1px 2px black;
 }
-header nav .icon {
-  grid-column: 11/12;
-  color: white;
-  place-self: center flex-end;
+header nav a {
+  text-decoration: none;
 }
-@media (max-width: 768px) {
-  header nav {
-    display: flex;
-  }
-  header nav .icon {
-    place-self: center end;
-  }
+header nav .company {
+  color: azure;
 }
-header .company {
-  text-align: center;
+header .hero-text {
+  font-size: 3.5rem;
+  font-family: "Arsenal SC", sans-serif;
+  margin-top: 8em;
 }
 header .sliders {
   display: flex;
   gap: 1em;
   align-self: center;
-  margin-top: auto;
-  margin-bottom: 5em;
 }
 header .sliders .dot {
   width: 1.3vh;
@@ -123,32 +115,58 @@ header .sliders .dot {
   border: 1px solid white;
 }
 
-@media (max-width: 760px) {
-  header {
-    height: 80vh;
-  }
-}
 .blog {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
 }
 
 .blog-box {
-  width: 70%;
-  margin: auto;
   display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 0 10em;
 }
 .blog-box h1 {
   color: black;
   display: inline;
+  font-size: 2.5rem;
+  font-family: "Orbitron", sans-serif;
+  width: 5ch;
+}
+.blog-box .group-link {
+  display: flex;
+  gap: 2em;
+}
+.blog-box .link {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  color: black;
 }
 .blog-box img {
-  width: 350px;
+  width: 650px;
 }
 
 .blog-box > section:first-of-type {
   display: flex;
   flex-direction: column;
+  gap: 2em;
 }
-.blog-box > section:first-of-type p {
-  width: 30%;
+
+.content {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 90vh;
+  }
+  .content {
+    flex-direction: column;
+    gap: 2em;
+  }
 }/*# sourceMappingURL=styles.css.map */
