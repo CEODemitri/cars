@@ -97,6 +97,14 @@ header nav .icon {
   color: white;
   place-self: center flex-end;
 }
+@media (max-width: 768px) {
+  header nav {
+    display: flex;
+  }
+  header nav .icon {
+    place-self: center end;
+  }
+}
 header .company {
   text-align: center;
 }

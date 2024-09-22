@@ -118,6 +118,16 @@ header {
         }
   }
 
+  @media (max-width: 768px) {
+    nav {
+      display: flex;
+
+      .icon {
+        place-self: center end;
+      }
+    }
+  }
+
   .company {
     text-align: center;
   }
