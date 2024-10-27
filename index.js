@@ -55,6 +55,21 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log("DOM fully loaded and ready");
 });
 
+// function autoScrollBG() {
+//   const header = document.querySelector(".head");
+//   const heroImages = [
+//     "./styles/hero.png",
+//     "./styles/hero2.png",
+//     "./styles/hero3.png",
+//   ];
+//   let currentHeroIndex = 0;
+
+//   setInterval(() => {
+//     header.style.background = `url('${heroImages[currentHeroIndex]}')`;
+//     header.style.backgroundSize = "cover";
+//     currentHeroIndex = (currentHeroIndex + 1) % heroImages.length;
+//   }, 5000);
+// }
 function autoScrollBG() {
   const header = document.querySelector(".head");
   const heroImages = [
@@ -64,10 +79,22 @@ function autoScrollBG() {
   ];
   let currentHeroIndex = 0;
 
+  // Preload images to avoid flickering
+  heroImages.forEach((image) => {
+    const img = new Image();
+    img.src = image;
+  });
+
+  header.style.backgroundImage = `url('${heroImages[currentHeroIndex]}')`;
+
   setInterval(() => {
-    header.style.background = `url('${heroImages[currentHeroIndex]}')`;
-    header.style.backgroundSize = "cover";
     currentHeroIndex = (currentHeroIndex + 1) % heroImages.length;
+    header.style.opacity = 0.2; // Fade out
+
+    setTimeout(() => {
+      header.style.backgroundImage = `url('${heroImages[currentHeroIndex]}')`;
+      header.style.opacity = 1; // Fade in
+    }, 500); // Match this to CSS transition duration
   }, 5000);
 }
 

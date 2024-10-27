@@ -5,11 +5,11 @@ li {
 }
 
 h1 {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Federo", sans-serif;
 }
 
 p {
-  font-family: "Arsenal SC", sans-serif;
+  font-family: "Moderustic", sans-serif;
 }
 
 /* RESET */
@@ -41,7 +41,7 @@ h4 {
 
 /* Body Set */
 body {
-  font-family: "Arsenal SC", sans-serif;
+  font-family: "Moderustic", sans-serif;
   font-size: var(--fs-400);
   color: hsl(var(--color-light));
   background-repeat: no-repeat;
@@ -49,6 +49,7 @@ body {
   background-position: center;
   line-height: 1.5;
   min-height: 100vh;
+  background-color: black;
 }
 
 /* easier images */
@@ -87,6 +88,7 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 1.3rem;
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
@@ -98,12 +100,22 @@ header nav a {
 header nav .company {
   color: azure;
 }
+header nav .logo {
+  height: 100px;
+  display: none;
+}
 header .hero-text {
   font-size: 5rem;
-  font-family: "Arsenal SC", sans-serif;
+  font-family: "Moderustic", sans-serif;
   margin-top: 3.7em;
 }
 @media (max-width: 768px) {
+  header nav a {
+    display: none;
+  }
+  header nav .logo {
+    display: block;
+  }
   header .hero-text {
     font-size: 3rem;
   }
@@ -121,6 +133,14 @@ header .sliders .dot {
   border: 1px solid white;
 }
 
+.head {
+  position: relative; /* Ensure positioning for overlays if needed */
+  transition: opacity 0.5s ease-in-out; /* Smooth fade */
+  background-size: cover;
+  height: 100vh; /* Adjust as necessary */
+  width: 100%; /* Adjust as necessary */
+}
+
 .blog {
   height: 100vh;
   display: flex;
@@ -128,6 +148,7 @@ header .sliders .dot {
   justify-content: center;
   align-items: center;
   gap: 4em;
+  background: #fff;
 }
 
 .blog-box {
@@ -140,7 +161,7 @@ header .sliders .dot {
   color: black;
   display: inline;
   font-size: 2.5rem;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Federo", sans-serif;
   width: 5ch;
 }
 .blog-box .group-link {
@@ -194,6 +215,9 @@ header .sliders .dot {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
+}
+.models .model-box h3 {
+  font-size: 2em;
 }
 .models .muscle {
   background: url("../images/cars/muscle_cars/challenger28.jpeg");
