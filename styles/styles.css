@@ -82,6 +82,7 @@ header {
   padding: 2em;
   color: white;
   letter-spacing: 0.1em;
+  z-index: 1000;
 }
 header nav {
   display: flex;
@@ -98,9 +99,14 @@ header nav .company {
   color: azure;
 }
 header .hero-text {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-family: "Arsenal SC", sans-serif;
-  margin-top: 8em;
+  margin-top: 3.7em;
+}
+@media (max-width: 768px) {
+  header .hero-text {
+    font-size: 3rem;
+  }
 }
 header .sliders {
   display: flex;
@@ -169,4 +175,41 @@ header .sliders .dot {
     flex-direction: column;
     gap: 2em;
   }
+}
+.models {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.models h2 {
+  text-align: center;
+  margin: 2em;
+  font-size: 2rem;
+}
+.models .model-box {
+  width: 70svw;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.models .muscle {
+  background: url("../images/cars/muscle_cars/challenger28.jpeg");
+}
+.models .exotic {
+  background: url("../images/cars/exotic_cars/audiWings.jpeg");
+}
+.models .fast {
+  background: url("../images/cars/fast_cars/ferrariPurple.jpeg");
+}
+.models .concept {
+  background: url("../images/cars/concept_cars/2026DemiShark.jpeg");
+}
+.models .muscle, .models .exotic, .models .fast, .models .concept {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 1em;
 }/*# sourceMappingURL=styles.css.map */
