@@ -68,7 +68,7 @@ body {
   background-position: center;
   line-height: 1.5;
   min-height: 100vh;
-  background-color: black;
+  background-color: #0f0f0f;
 }
 
 /* easier images */
@@ -245,6 +245,7 @@ header {
     text-align: center;
     margin: 2em;
     font-size: 2rem;
+    color: $light;
   }
 
   .model-box {
