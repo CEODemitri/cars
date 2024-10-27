@@ -39,6 +39,24 @@ h4 {
   font-weight: 400;
 }
 
+button {
+  padding: 0.3em 2em;
+  border-radius: 5px;
+  background-color: hsl(90, 24%, 84%);
+  color: hsl(88, 65%, 8%);
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: hsl(26, 76%, 77%);
+}
+
+.accent-btn {
+  background-color: transparent;
+  color: #fff;
+}
+
 /* Body Set */
 body {
   font-family: "Moderustic", sans-serif;
@@ -237,4 +255,12 @@ header .sliders .dot {
   background-position: center;
   color: white;
   padding: 1em;
+}
+.models .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.models .description {
+  font-size: 1.4rem;
 }/*# sourceMappingURL=styles.css.map */
