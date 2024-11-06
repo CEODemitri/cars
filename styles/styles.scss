@@ -258,6 +258,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  margin-bottom: 10em;
 
   h2 {
     text-align: center;
@@ -278,6 +279,15 @@ header {
     h3 {
       font-size: 2em;
     }
+  }
+
+  .model-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(148, 148, 148, 0.2);
+    margin-bottom: 2em;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transform: rotateY(6deg) rotateX(10deg);
   }
 
   .muscle {
