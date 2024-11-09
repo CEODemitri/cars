@@ -40,7 +40,8 @@ h4 {
 }
 
 button {
-  padding: 0.3em 2em;
+  padding: 0.9em 1.5em;
+  border: none;
   border-radius: 5px;
   background-color: hsl(90, 24%, 84%);
   color: hsl(88, 65%, 8%);
@@ -53,8 +54,9 @@ button:hover {
 }
 
 .accent-btn {
-  background-color: transparent;
   color: #fff;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 /* Body Set */
@@ -71,19 +73,25 @@ body {
 }
 
 /* easier images */
-img, picture {
+img,
+picture {
   max-width: 100%;
   display: block;
 }
 
 /* form elements */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* remove animations for people who turned them off */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -123,9 +131,10 @@ header nav .logo {
   display: none;
 }
 header .hero-text {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Moderustic", sans-serif;
-  margin-top: 3.7em;
+  margin-top: 6em;
+  width: 10ch;
 }
 @media (max-width: 768px) {
   header nav a {
@@ -215,22 +224,32 @@ header .sliders .dot {
     gap: 2em;
   }
 }
-.models {
+.model-container {
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  padding: 5em;
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin-bottom: 10em;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
 }
-.models h2 {
+.model-container h2 {
   text-align: center;
-  margin: 2em;
-  font-size: 2rem;
+  font-size: 2.6rem;
   color: hsl(90, 24%, 84%);
 }
+
+.models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
 .models .model-box {
-  width: 70svw;
+  width: 35svw;
   height: 700px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -238,6 +257,17 @@ header .sliders .dot {
 }
 .models .model-box h3 {
   font-size: 2em;
+}
+.models .model-box section > div > button {
+  width: 80%;
+}
+@media (max-width: 1299px) {
+  .models .model-box {
+    width: 80svw;
+  }
+  .models .model-box section > div > button {
+    width: 36%;
+  }
 }
 .models .model-box:hover {
   transform: scale(1.05);
@@ -259,7 +289,10 @@ header .sliders .dot {
 .models .concept {
   background: url("../images/cars/concept_cars/2026DemiShark.jpeg");
 }
-.models .muscle, .models .exotic, .models .fast, .models .concept {
+.models .muscle,
+.models .exotic,
+.models .fast,
+.models .concept {
   background-size: cover;
   background-position: center;
   color: white;
@@ -272,4 +305,16 @@ header .sliders .dot {
 }
 .models .description {
   font-size: 1.4rem;
+}
+
+.side-note {
+  font-size: 0.7em;
+}
+
+.locate {
+  width: 80vw;
+  height: 36vh;
+  background-color: #ececec;
+  margin: auto;
+  border-radius: 0.8em;
 }/*# sourceMappingURL=styles.css.map */

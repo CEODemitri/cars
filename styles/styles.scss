@@ -10,25 +10,21 @@ $base: hsl(89, 25%, 24%);
 $accent: hsl(26, 76%, 77%);
 $light: hsl(90, 24%, 84%);
 
-$ff-title: "Federo",
-sans-serif;
+$ff-title: "Federo", sans-serif;
 $ff-subtitle: "Judson", serif;
-$ff-body: "Moderustic",
-sans-serif;
+$ff-body: "Moderustic", sans-serif;
 
 li {
   font-family: "Judson", serif;
 }
 
 h1 {
-    font-family: $ff-title;
+  font-family: $ff-title;
 }
 
 p {
-    font-family: $ff-body;
+  font-family: $ff-body;
 }
-
-
 
 /* RESET */
 
@@ -51,7 +47,7 @@ picture {
   margin: 0;
 }
 
-h1, 
+h1,
 h2,
 h3,
 h4 {
@@ -59,7 +55,8 @@ h4 {
 }
 
 button {
-  padding: 0.3em 2em;
+  padding: 0.9em 1.5em;
+  border: none;
   border-radius: 5px;
   background-color: $light;
   color: $dark;
@@ -72,8 +69,9 @@ button:hover {
 }
 
 .accent-btn {
-  background-color: transparent;
   color: #fff;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 /* Body Set */
@@ -90,19 +88,25 @@ body {
 }
 
 /* easier images */
-img, picture {
+img,
+picture {
   max-width: 100%;
   display: block;
 }
 
 /* form elements */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* remove animations for people who turned them off */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -144,11 +148,12 @@ header {
       display: none;
     }
   }
-  
+
   .hero-text {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: $ff-body;
-    margin-top: 3.7em;
+    margin-top: 6em;
+    width: 10ch;
   }
 
   @media (max-width: 768px) {
@@ -171,12 +176,12 @@ header {
     align-self: center;
 
     .dot {
-        width: 1.3vh;
-        height: 1.3vh;
-        background-color: slateblue;
-        border-radius: 50%;
-        border: 1px solid white;
-      }
+      width: 1.3vh;
+      height: 1.3vh;
+      background-color: slateblue;
+      border-radius: 50%;
+      border: 1px solid white;
+    }
   }
 }
 
@@ -188,7 +193,6 @@ header {
   width: 100%; /* Adjust as necessary */
 }
 
-
 // blog styles
 .blog {
   height: 100vh;
@@ -199,7 +203,6 @@ header {
   gap: 4em;
   background: #fff;
 }
-
 
 .blog-box {
   display: flex;
@@ -254,23 +257,32 @@ header {
 }
 
 // models
-.models {
+.model-container {
+  height: fit-content;
+  color: white;
+  padding: 5em;
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin-bottom: 10em;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
 
   h2 {
     text-align: center;
-    margin: 2em;
-    font-size: 2rem;
+    font-size: 2.6rem;
     color: $light;
   }
+}
+
+.models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
 
   .model-box {
-    width: 70svw;
+    width: 35svw;
     height: 700px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -278,6 +290,20 @@ header {
 
     h3 {
       font-size: 2em;
+    }
+
+    section > div > button {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 1299px) {
+    .model-box {
+      width: 80svw;
+
+      section > div > button {
+        width: 36%;
+      }
     }
   }
 
@@ -306,7 +332,10 @@ header {
     background: url("../images/cars/concept_cars/2026DemiShark.jpeg");
   }
 
-  .muscle, .exotic, .fast, .concept {
+  .muscle,
+  .exotic,
+  .fast,
+  .concept {
     background-size: cover;
     background-position: center;
     color: white;
@@ -322,5 +351,18 @@ header {
   .description {
     font-size: 1.4rem;
   }
-  
+}
+
+.side-note {
+  font-size: 0.7em;
+}
+
+// 
+// location
+.locate {
+  width: 80vw;
+  height: 36vh;
+  background-color: #ececec;
+  margin: auto;
+  border-radius: 0.8em;
 }
