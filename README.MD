@@ -2,8 +2,6 @@
 
 # SPIRIT AUTO
 
----
-
 ## PHASE DOS
 
 7 30
