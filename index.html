@@ -1,144 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Noto+Sans+JP:wght@100..900&family=Yesteryear&display=swap');
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Moderustic:wght@300..800&display=swap"
-      rel="stylesheet">
-      <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <script defer src="index.js"></script>
+    <title>Spirits Auto</title>
   </head>
   <body>
-
-    <!-- hero section -->
-    <header class="head">
-      <nav>
-        <p>Menu</p>
-        <div>
-          <a href="/"><h1 class="company">SPIRITS AUTO</h1></a>
-          <span><img src="/images/logo/symbol.png" alt="spirit auto logo" class="logo"></span>
-        </div>
-        <p class="icon"><span class="material-symbols-outlined">
-            location_on
-          </span></p>
-      </nav>
-
-      <div>
-        <h1 class="hero-text">drive faster with your imagination</h1>
-        <button class="accent-btn">Discover more</button>
-      </div>
-
-      <div class="sliders" id="sliders">
-        <section class="dot"></section>
-        <section class="dot"></section>
-        <section class="dot"></section>
-      </div>
-    </header>
-
-    <!-- blog section -->
-    <div class="blog">
-      <div class="blog-box">
-        <p><span class="material-symbols-outlined">
-          arrow_back_ios
-        </span></p>
-        <div class="content">
-          <section>
-            <h1>Dream Big</h1>
-            <p>Figma ipsum component variant main layer. Plugin boolean effect main thumbnail overflow inspect blur draft.</p>
-            <div class="group-link">
-              <a href="/" class="link">See More</a>
-              <span class="material-symbols-outlined">
-                expand_circle_right
-              </span>
-            </div>
-          </section>
-          <section>
-            <img src="/images/cars/muscle-popular.png" />
-          </section>
-        </div>
-        <p>
-          <span class="material-symbols-outlined">
-            arrow_forward_ios
-          </span>
-        </p>
-      </div>
-      <section><a href="/"><span>(dots)</span>See More</a></section>
-    </div>
-
-    <!-- models -->
-     <div class="model-container">
-       <h2>Models</h2>
-       <div class="models">
-        <div class="model-box muscle">
-          <section>
-            <h3>Muscle</h3>
-            <p>electric</p>
-          </section>
-          <section class="info">
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex id erat fermentum
-              faucibus.</p>
-            <p class="price">from 40000</p>
-            <div>
-              <button>Build a Muscle</button>
-              <button class="accent-btn">All Muscle Cars</button>
-            </div>
-          </section>
-        </div>
-        <div class="model-box exotic">
-          <section>
-            <h3>Exotic</h3>
-            <p>electric</p>
-          </section>
-          <section class="info">
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex id erat fermentum
-              faucibus.</p>
-            <p class="price">from 80000</p>
-            <div>
-              <button>Build an Exotic</button>
-              <button class="accent-btn">All Exotic Cars</button>
-            </div>
-          </section>
-        </div>
-        <div class="model-box fast">
-          <section>
-            <h3>Fast</h3>
-            <p>electric</p>
-          </section>
-          <section class="info">
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex id erat fermentum
-              faucibus.</p>
-            <p class="price">from 60000</p>
-            <div>
-              <button>Build a Fast</button>
-              <button class="accent-btn">All Fast Cars</button>
-            </div>
-          </section>
-        </div>
-        <div class="model-box concept">
-          <section>
-            <h3>Concept</h3>
-            <p>electric</p>
-          </section>
-          <section class="info">
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ex id erat fermentum
-              faucibus.</p>
-            <p class="price">from 100000</p>
-            <div>
-              <button>Build a Concept</button>
-              <button class="accent-btn">All Concept Cars</button>
-            </div>
-          </section>
-        </div>
-       </div>
-       <p class="side-note">*Manufacturer’s Suggested Retail Price. Excludes options; taxes; title; registration; delivery, processing and handling
-      fee; dealer charges. Dealer sets actual selling price.</p>
-     </div>
-
-     <!-- locate dealership -->
-      <div class="locate"></div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

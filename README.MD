@@ -4,11 +4,19 @@ Auto dealership for the upper echelon thinkers. You think it, we deliver it to y
 
 ## Web Development
 
-Repsonsibilites 0. UX | UI Design and Research
+Repsonsibilites
 
-1. Copy Writer
-2. Full Stack Developer
-3. Owner
+1. UX | UI Design and Research
+2. Copy Writer
+3. Full Stack Developer
+4. Owner
+
+Tools
+
+1. HTML
+2. SASS/CSS
+3. JS
+4. Vite
 
 ## Current
 
