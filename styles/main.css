@@ -12,20 +12,22 @@
     --pure-black: 0, 0%, 0%;
 }
 
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* utility */
 .flex {
     display: flex;
 }
 
 /* custom */
-* {
-    padding: 0;
-    margin: 0;
-}
-
 nav {
     font-size: 0.8em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-bottom: 5.4em;
 }
 
 .hero-section {
@@ -36,5 +38,9 @@ nav {
 
 .top-hero {
     justify-content: space-between;
+}
+
+h1 {
+    font-size: 3.7em;
 }
 
