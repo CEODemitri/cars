@@ -1,0 +1,40 @@
+:root {
+    /* jet */
+    --primary-color: 120, 1%, 17%;
+
+    /* timberwolf */
+    --secondary-color: 12, 5%, 80%;
+
+    /* khaki */
+    --accent-color: 34, 12%, 63%;
+
+    /* black */
+    --pure-black: 0, 0%, 0%;
+}
+
+/* utility */
+.flex {
+    display: flex;
+}
+
+/* custom */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-size: 0.8em;
+    text-transform: uppercase
+}
+
+.hero-section {
+    background-color: hsla(var(--pure-black));
+    color: antiquewhite;
+    height: 950px;
+}
+
+.top-hero {
+    justify-content: space-between;
+}
+
