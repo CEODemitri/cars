@@ -18,6 +18,24 @@
     margin: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.7em;
+    font-family: "Publico Text";
+}
+
+button {
+    font-size: 0.9em;
+    border: none;
+    background-color: mediumpurple;
+    color: white;
+    padding: 0.6em 2em;
+    border-radius: 0.5em;
+}
+
 /* utility */
 .flex {
     display: flex;
@@ -27,20 +45,90 @@
 nav {
     font-size: 0.8em;
     text-transform: uppercase;
-    margin-bottom: 5.4em;
+    letter-spacing: 2px;
+
+    ul {
+        display: flex;
+        gap: 2em;
+        list-style: none;
+        justify-content: center;
+        margin: 1rem;
+    }
+
 }
 
 .hero-section {
-    background-color: hsla(var(--pure-black));
-    color: antiquewhite;
-    height: 950px;
+    height: 75vh;
 }
 
 .top-hero {
     justify-content: space-between;
 }
 
-h1 {
-    font-size: 3.7em;
+.hero-content {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
 }
+
+.left-hero {
+    background-color: orange;
+    position: relative;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.right-hero {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    justify-content: space-around;
+    padding: 4rem;
+    position: absolute;
+    z-index: 1000;
+}
+
+h1 span {
+    color: rebeccapurple;
+    font-size: 0.7em;
+}
+
+.hero-text > p {
+    text-align: justify;
+    width: 80%;
+    line-height: 1.3em;
+}
+
+.hero-action {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.shape {
+    height: 30vh;
+    width: 30vh;
+    background-color: darkolivegreen;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
 
